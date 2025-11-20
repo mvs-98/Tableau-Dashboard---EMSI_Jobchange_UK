@@ -7,7 +7,7 @@ The goal of this analysis is to explore job growth and decline across UK industr
 
 ---
 
-## **📁 Dataset**
+## **Dataset**
 
 **EMSI JobChange UK Dataset**
 The dataset includes two worksheets:
@@ -19,7 +19,7 @@ These worksheets were linked in Tableau using the shared **Country** field.
 
 ---
 
-## **📊 Visualisations Created**
+## **Visualisations Created**
 
 ### **1. Bar Chart – Percentage Job Change by Sub-Category**
 
@@ -57,7 +57,7 @@ An interactive geographic view showing which UK cities experienced the greatest 
 
 ---
 
-## **🧮 Calculated Fields**
+## **Calculated Fields**
 
 To compare higher-level (1-digit) and detailed (2-digit) job changes, a calculated field was created:
 
@@ -69,7 +69,7 @@ This field represents the difference between the two sheets and was used in the 
 
 ---
 
-## **📈 Dashboard – UK Job Change Overview**
+## **Dashboard – UK Job Change Overview**
 
 A combined dashboard titled **“% Job Change in UK”** was created to present an integrated view.
 
@@ -99,7 +99,7 @@ A comprehensive, interactive dashboard summarizing both industry-level and city-
 
 ---
 
-## **📂 Repository Structure**
+## **Repository Structure**
 
 ```
 /data                # EMSI Job Change dataset (if allowed to upload)
@@ -109,7 +109,7 @@ README.md            # Project documentation
 
 ---
 
-## **✨ Summary**
+## **Summary**
 
 This project demonstrates:
 
