@@ -1,15 +1,16 @@
----
 
 # **UK Job Change Analysis – Tableau Visualisation Project**
 
 This repository contains a Tableau visualisation project based on the **EMSI Job Change UK Dataset**.
+
+## **Aim**
 The goal of this analysis is to explore job growth and decline across UK industries and cities by creating interactive visualisations and a combined dashboard.
 
 ---
 
 ## **Dataset**
 
-**EMSI JobChange UK Dataset**
+**EMSI JobChange UK Dataset:**
 The dataset includes two worksheets:
 
 * **1 digit** – high-level industry categories and city data
@@ -24,6 +25,9 @@ These worksheets were linked in Tableau using the shared **Country** field.
 ### **1. Bar Chart – Percentage Job Change by Sub-Category**
 
 This visualisation shows percentage job change for each 2-digit industry category.
+
+<img width="1715" height="903" alt="1. Bar Chart – Percentage Job Change by Sub-Category" src="https://github.com/user-attachments/assets/73f136fb-e00e-4ea5-87f2-c5c21a9e4e2e" />
+
 
 **Key steps:**
 
@@ -43,6 +47,9 @@ A clear visual ranking of industries experiencing highest and lowest percentage 
 ### **2. UK Map – Percentage Change Across Cities**
 
 This visualisation highlights job change geographically across major UK cities.
+
+<img width="1645" height="847" alt="UK Map – Percentage Change Across Cities" src="https://github.com/user-attachments/assets/ea5d99ee-a3ed-4820-9965-50cb5e8f72fc" />
+
 
 **Key steps:**
 
@@ -73,6 +80,9 @@ This field represents the difference between the two sheets and was used in the 
 
 A combined dashboard titled **“% Job Change in UK”** was created to present an integrated view.
 
+<img width="990" height="1001" alt="Dashboard – UK Job Change Overview" src="https://github.com/user-attachments/assets/e6dd2c1f-1100-4bfd-86bf-8c0b05bdf867" />
+
+
 **Dashboard components:**
 
 * **% Change by Sub-Category** bar chart
@@ -91,7 +101,7 @@ A comprehensive, interactive dashboard summarizing both industry-level and city-
 
 ---
 
-## **🛠️ Tools & Technologies**
+## **Tools & Technologies**
 
 * **Tableau Desktop** for data visualisation
 * **EMSI JobChange UK Dataset** (Excel)
@@ -102,8 +112,8 @@ A comprehensive, interactive dashboard summarizing both industry-level and city-
 ## **Repository Structure**
 
 ```
-/data                # EMSI Job Change dataset (if allowed to upload)
-/tableau             # Packaged workbook (.twbx) or Tableau files
+/data                # EMSI Job Change dataset
+/tableau             # Tableau project file (.twbx)
 README.md            # Project documentation
 ```
 
@@ -119,5 +129,3 @@ This project demonstrates:
 * Use of filters, calculated fields, and dashboard layout best practices
 
 The resulting dashboard provides meaningful insights into how different sectors and regions across the UK have changed over time.
-
----
